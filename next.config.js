@@ -11,7 +11,6 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  // Remover experimental.appDir pois não é mais necessário no Next.js 15
 }
 
 module.exports = nextConfig
