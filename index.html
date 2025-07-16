@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Clínica odontológica moderna com tratamentos completos e tecnologia avançada. Agende sua consulta hoje mesmo!">
+    <meta name="keywords" content="dentista, odontologia, limpeza dental, clareamento, implante, ortodontia">
+    <meta name="author" content="DentalCare">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Content Security Policy - Máxima Segurança -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'none'; frame-src 'none'; object-src 'none';">
+    
+    <!-- Política de Referrer -->
+    <meta name="referrer" content="no-referrer">
+    
+    <!-- Desabilitar DNS Prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="off">
+    
+    <title>DentalCare - Clínica Dental Moderna</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <span class="logo-icon">🦷</span>
+                    <span class="logo-text">DentalCare</span>
+                </div>
+                
+                <div class="nav-links">
+                    <a href="#home" class="nav-link">Início</a>
+                    <a href="#services" class="nav-link">Serviços</a>
+                    <a href="#about" class="nav-link">Sobre</a>
+                    <a href="#contact" class="nav-link">Contato</a>
+                </div>
+                
+                <div class="nav-cta">
+                    <a href="tel:+5511999999999" class="btn-primary">Ligar Agora</a>
+                </div>
+                
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            
+            <div class="mobile-menu" id="mobileMenu">
+                <a href="#home" class="mobile-nav-link" onclick="closeMobileMenu()">Início</a>
+                <a href="#services" class="mobile-nav-link" onclick="closeMobileMenu()">Serviços</a>
+                <a href="#about" class="mobile-nav-link" onclick="closeMobileMenu()">Sobre</a>
+                <a href="#contact" class="mobile-nav-link" onclick="closeMobileMenu()">Contato</a>
+                <a href="tel:+5511999999999" class="btn-primary mobile-cta">Ligar Agora</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Seu Sorriso É Nossa 
+                    <span class="accent-text">Prioridade</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Clínica odontológica moderna com tecnologia avançada e profissionais especializados para cuidar da sua saúde bucal.
+                </p>
+                <div class="hero-actions">
+                    <a href="tel:+5511999999999" class="btn-primary">Ligar Agora</a>
+                    <a href="#services" class="btn-secondary">Ver Serviços</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-card">
+                    <div class="hero-icon">🦷</div>
+                    <h3>Tecnologia Avançada</h3>
+                    <p>Utilizamos equipamentos de última geração para garantir o melhor tratamento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossos Serviços</h2>
+                <p>Oferecemos tratamentos completos com tecnologia avançada e profissionais especializados</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🦷</div>
+                    <h3>Limpeza Dental</h3>
+                    <p>Profilaxia completa para manter sua saúde bucal em dia.</p>
+                    <div class="service-price">A partir de R$ 80</div>
+                    <a href="tel:+5511999999999" class="btn-service">Agendar</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">✨</div>
+                    <h3>Clareamento</h3>
+                    <p>Clareamento dental seguro e eficaz para um sorriso radiante.</p>
+                    <div class="service-price">A partir de R$ 400</div>
+                    <a href="tel:+5511999999999" class="btn-service">Agendar</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>Restauração</h3>
+                    <p>Restaurações em resina e porcelana com estética natural.</p>
+                    <div class="service-price">A partir de R$ 150</div>
+                    <a href="tel:+5511999999999" class="btn-service">Agendar</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🏥</div>
+                    <h3>Ortodontia</h3>
+                    <p>Aparelhos ortodônticos para alinhamento perfeito dos dentes.</p>
+                    <div class="service-price">A partir de R$ 200/mês</div>
+                    <a href="tel:+5511999999999" class="btn-service">Agendar</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🦴</div>
+                    <h3>Implante</h3>
+                    <p>Implantes dentários com tecnologia de ponta.</p>
+                    <div class="service-price">A partir de R$ 1.500</div>
+                    <a href="tel:+5511999999999" class="btn-service">Agendar</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">👑</div>
+                    <h3>Prótese</h3>
+                    <p>Próteses fixas e removíveis personalizadas.</p>
+                    <div class="service-price">A partir de R$ 800</div>
+                    <a href="tel:+5511999999999" class="btn-service">Agendar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Sobre Nossa Clínica</h2>
+                    <p>Com mais de 10 anos de experiência, nossa clínica odontológica é referência em tratamentos de qualidade na região. Combinamos tecnologia de ponta com atendimento humanizado para garantir a melhor experiência aos nossos pacientes.</p>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">1000+</div>
+                            <div class="stat-label">Pacientes Atendidos</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">Anos de Experiência</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Especialidades</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">5⭐</div>
+                            <div class="stat-label">Avaliação Média</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-features">
+                    <h3>Por que nos escolher?</h3>
+                    <ul class="features-list">
+                        <li>✓ Tecnologia de última geração</li>
+                        <li>✓ Profissionais especializados</li>
+                        <li>✓ Ambiente moderno e acolhedor</li>
+                        <li>✓ Atendimento personalizado</li>
+                        <li>✓ Horários flexíveis</li>
+                        <li>✓ Planos de pagamento facilitados</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Entre em Contato</h2>
+                <p>Agende sua consulta ou tire suas dúvidas conosco</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Informações de Contato</h3>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h4>Endereço</h4>
+                            <p>Rua da Saúde, 123 - Centro<br>São Paulo, SP - 01234-567</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h4>Telefone</h4>
+                            <p><a href="tel:+5511999999999">(11) 99999-9999</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h4>WhatsApp</h4>
+                            <p><a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">(11) 99999-9999</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p><a href="mailto:contato@dentalcare.com.br">contato@dentalcare.com.br</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="hours">
+                        <h4>Horário de Funcionamento</h4>
+                        <p>Segunda a Sexta: 8h às 18h</p>
+                        <p>Sábado: 8h às 12h</p>
+                        <p>Domingo: Fechado</p>
+                    </div>
+                </div>
+                
+                <div class="contact-actions">
+                    <div class="action-card">
+                        <h3>Ligue Agora</h3>
+                        <p>Fale diretamente conosco</p>
+                        <a href="tel:+5511999999999" class="btn-primary">Ligar</a>
+                    </div>
+                    
+                    <div class="action-card">
+                        <h3>WhatsApp</h3>
+                        <p>Converse pelo WhatsApp</p>
+                        <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" class="btn-secondary">Conversar</a>
+                    </div>
+                    
+                    <div class="action-card">
+                        <h3>Email</h3>
+                        <p>Envie sua mensagem</p>
+                        <a href="mailto:contato@dentalcare.com.br" class="btn-primary">Enviar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🦷</span>
+                        <span class="logo-text">DentalCare</span>
+                    </div>
+                    <p>Cuidando do seu sorriso com excelência e tecnologia de ponta há mais de 10 anos.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Serviços</h3>
+                    <ul>
+                        <li><a href="#services">Limpeza Dental</a></li>
+                        <li><a href="#services">Clareamento</a></li>
+                        <li><a href="#services">Restauração</a></li>
+                        <li><a href="#services">Ortodontia</a></li>
+                        <li><a href="#services">Implante</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contato</h3>
+                    <p>📍 Rua da Saúde, 123 - Centro</p>
+                    <p>São Paulo, SP - 01234-567</p>
+                    <p>📞 <a href="tel:+5511999999999">(11) 99999-9999</a></p>
+                    <p>✉️ <a href="mailto:contato@dentalcare.com.br">contato@dentalcare.com.br</a></p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Horário</h3>
+                    <p>Segunda a Sexta: 8h às 18h</p>
+                    <p>Sábado: 8h às 12h</p>
+                    <p>Domingo: Fechado</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 DentalCare. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
