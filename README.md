@@ -2,6 +2,11 @@
 
 Uma landing page moderna e responsiva desenvolvida para clínicas odontológicas, construída com Next.js, TypeScript e Tailwind CSS.
 
+## 🚀 Deploy Status
+- **Status**: Deploy corrigido com importações relativas
+- **Build**: Testado e funcionando localmente  
+- **Netlify**: Configurado para deploy automático
+
 ## ✨ Características
 
 - **Design Moderno**: Interface limpa e profissional focada em saúde bucal
